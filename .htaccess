@@ -1,0 +1,6 @@
+# Redirect to www
+# RewriteEngine On
+# RewriteCond %{HTTP_HOST} ^pnncocuy\.com
+# RewriteRule (.*) http://www.pnncocuy.com/$1 [R=301,L]
+
+Redirect 301 /prices.html /alltheinfo/
